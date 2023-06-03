@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            background-color: white;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .light{
+            background-color: white;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            animation: myanime 2s alternate infinite linear 2s both;
+        }
+        @keyframes myanime{
+            from{
+                background-image: url(../Css/bulb\ off.jpg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 500px;
+                height: 500px;
+            }
+            to{
+                background-image: url(../Css/bulb\ on.jpg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 500px;
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div  class="light">
+
+        </div>
+    </div>
+</body>
+</html>

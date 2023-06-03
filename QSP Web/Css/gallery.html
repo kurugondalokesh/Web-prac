@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image gallery</title>
+    <style>
+        h1{
+            border: 10px solid black;
+            /* width: 500px; */
+            padding-left: 500px;
+            row-gap: 70px;
+        }
+        .gim{
+            border: 5px solid black;
+            border-radius: 5px;
+            height: 250px;
+            width: 300px;
+        }
+        .gall{
+            display: flex;
+            flex-direction: column;
+            row-gap: 70px;
+        }
+        .r1{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .r2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 10px;
+            row-gap: 10px;
+            justify-content:space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image gallery</h1>
+    <div class="gall">
+        <div class="r1">
+        <img src="../Html/balayya.jpeg" alt="" class="gim">
+        <img src="../Html/ajith.jpeg" alt="" class="gim">
+        <img src="../Html/Images/download.jpeg" alt="" class="gim">
+        </div>
+        <div class="r2">
+        <img src="../Html/bl.jpeg" alt="" class="gim">
+        <img src="../Html/download.jpeg" alt="" class="gim">
+        <img src="../Html/Images/tiger.jpeg" alt="" class="gim">
+        </div>
+    </div>
+
+    <h1>Gallery using grid</h1>
+    <div class="main">
+        <div class="gr"><img src="../Html/balayya.jpeg" alt="" class="gim"></div>
+        <div class="gr"><img src="../Html/ajith.jpeg" alt="" class="gim"></div>
+        <div class="gr"><img src="../Html/Images/download.jpeg" alt="" class="gim"></div>
+        <div class="gr"><img src="../Html/bl.jpeg" alt="" class="gim"></div>
+        <div class="gr"><img src="../Html/download.jpeg" alt="" class="gim"></div>
+        <div class="gr"><img src="../Html/Images/tiger.jpeg" alt="" class="gim"></div>
+    </div>
+</body>
+</html>

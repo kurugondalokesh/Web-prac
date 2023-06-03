@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display</title>
+    <style>
+        .d{
+            background-color: blueviolet;
+            width:100px;
+            height: 100px;
+            display: inline-block;
+            /* border-radius: 50%; */
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        .fle{
+            background-color: brown;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            background-color: darkgray;
+            display: flex;
+            width: 1000px;
+            height: 400px;
+            margin-left: 100px;
+            justify-content:space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction:row-reverse;
+        }
+        #el{
+            align-self: flex-end;
+        }
+        #el1{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="d">Display</div>
+    <div class="d">Inline block</div>
+
+
+    <div class="main">
+        <div class="fle" id="el">1</div>
+        <div class="fle">2</div>
+        <div class="fle" id="el1">3</div>
+    </div>
+</body>
+</html>

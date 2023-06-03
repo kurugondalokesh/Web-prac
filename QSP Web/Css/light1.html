@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .im{
+            /* content: url(./bulb\ off.jpg.jpg); */
+            /* width: 100px; */
+            /* height: 100px; */
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+        /* .ig{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        } */
+        /* img{
+            width: 100px;
+            height: 100px;
+        } */
+        .im:hover{
+            animation: myanim 2s linear 2s infinite;
+        }
+        @keyframes myanim {
+            from{}
+            to{ content: url(./bulb\ on.jpg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="im">
+        <img src="./bulb off.jpg" alt="">
+    </div>
+</body>
+</html>

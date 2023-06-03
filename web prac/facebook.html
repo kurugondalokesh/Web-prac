@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook-log in or sign up</title>
+    <link rel="icon" href="./facebook.png">
+    <style>
+
+        h1{
+            color: dodgerblue;
+            font-family: sans-serif;
+            /* font-size: 20px; */
+            font-weight: bolder;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .txt{
+            background-color:#ffff;
+            height: 280px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 2px 2px 10px black;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            margin-left: 70px;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        input{
+            /* margin-left: 55px; */
+            width: 280px;
+            padding: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px gray;
+        }
+        #nam ,#pas{
+            /* padding-bottom: 5px;*/
+            margin-bottom: 10px;
+        }
+        #btn{
+            padding: 15px;
+            width: 310px;
+            color: #ffff;
+            background-color: dodgerblue;
+            border-style: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: dodgerblue;
+            margin-top: 5px;
+            font-family: sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        #for{
+            margin-left: 25px;
+        }
+        #sign{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>facebook</h1>
+    <div class="main">
+        <div class="txt">
+            <div class="ite">
+                <p>Log in to facebook</p>
+                <input type="text" name="username" id="nam" placeholder="Email address or number"> <br>
+                <input type="password" placeholder="Password" name="pass" id="pas"> <br>
+                <button id="btn">Log in</button> <br>
+                <a href="" id="for">Forgotten account?</a>
+                <a href="" id="sign">Sign up for facbook</a>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>

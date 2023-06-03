@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .main{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+            /* align-content: center; */
+            flex-wrap: wrap;
+        }
+        .calculator{
+            background-color: black;
+            border-radius: 10px;
+            height: 63vh;
+            width: 21vw;
+            margin: auto;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .btn{
+            /* padding: 15px; */
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            font-size: large;
+            font-weight: bold;
+            /* font-family: ; */
+        }
+        #screen{
+            width: 215px;
+            padding: 15px;
+            text-align: center;
+            outline: none;
+            font-size: 15px;
+        }
+        .calin{
+            /* background-color: crimson; */
+            width: 255px;
+            margin: auto;
+        }
+        .display{
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        #cancel{
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            background-color: coral;
+            font-size: large;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        #equal{
+            margin: 5px;
+            height: 50px;
+            width: 70%;
+            font-size: large;
+            font-weight: bold;
+            color:black;
+            /* background-color: coral; */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- <h1>Calculator</h1> -->
+        <div class="calculator">
+            <div class="calin">
+                <div class="display">
+                    <input type="text" placeholder="SCREEN" id="screen" >
+                </div>
+                    <div class="body">
+                        <button class="btn">7</button>
+                        <button class="btn">8</button>
+                        <button class="btn">9</button>
+                        <button class="btn">+</button>
+                        <button class="btn">4</button>
+                        <button class="btn">5</button>
+                        <button class="btn">6</button>
+                        <button class="btn">-</button>
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                        <button class="btn">*</button>
+                        <button class="btn">0</button>
+                        <button class="btn">00</button>
+                        <button class="btn">.</button>
+                        <button class="btn">/</button>
+                        <button id="cancel">c</button>
+                        <button id="equal">=</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="./cal.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gradient</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            /* background: linear-gradient(to right,red,yellow,green); */
+            /* background: linear-gradient(59deg,red,yellow); */
+            /* background: linear-gradient(75deg,red 50%,yellow 50%); */
+            background: radial-gradient(ellipse,red 50%,yellow 50%);  
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .square{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+        h1{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="main">
+        <div class="square">
+            <h1>World</h1>
+        </div>
+    </div>
+</body>
+</html>

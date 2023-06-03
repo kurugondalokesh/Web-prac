@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            background-color: rgb(116, 121, 123);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .square{
+            background-color: rgb(105, 207, 156);
+            width: 200px;
+            height: 200px;
+            color: cornsilk;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            animation-name: myFirstAnimation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-duration: alternate;
+            animation-timing-function: linear;
+            animation-delay: 5s;
+            /* animation: myFirstAnimation 2s infinite alternate linear 5s; */
+        }
+        @keyframes myFirstAnimation{
+            from{}
+            to{transform:rotate(360deg);}
+        }
+        .main2{
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+        }
+        .circle{
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: myAnime 5s infinite linear alternate ;
+        }
+        @keyframes myAnime {
+            0%{
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                position: relative;
+                top: 0px;
+                left: 700px;
+            }
+            50%{
+                position: relative;
+                top: 350px;
+                left: 700px;
+            }
+            75%{
+                position: relative;
+                top: 350px;
+                left: 0px;
+            }
+            100%{
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+        }
+        .main3{
+            background-color: coral;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+        }
+        .cir{
+            background-color:cyan;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: myAnim 1s infinite alternate linear;
+        }
+        @keyframes myAnim {
+            0%{
+                position: relative;
+                top: 0px;
+                left: 0px;
+                background-color: aliceblue;
+            }
+            25%{
+                position: relative;
+                top: 400px;
+                left: 0px;
+                background-color: black;
+            }
+            50%{
+                position: relative;
+                top: 400px;
+                left: 600px;
+                background-color: blueviolet;
+            }
+            75%{
+                position: relative;
+                top: 0px;
+                left: 600px;
+                background-color: chartreuse;
+            }
+            100%{
+                position: relative;
+                top: 0px;
+                left: 0px;
+                background-color: aliceblue;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="square">
+            <h1>
+                World
+            </h1>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="circle">
+            <h1>World</h1>
+        </div>
+
+    </div>
+    <div class="main3">
+        <div class="cir">
+            <h1>World1</h1>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* grid-template-rows: auto; */
+            background-color: #2196F3;
+            padding: 10px;
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+        .gri {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        #i1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="gri" id="i1">1</div>
+    <div class="gri">2</div>
+    <div class="gri">3</div>
+    <div class="gri">4</div>
+    <div class="gri">5</div>
+    <div class="gri">6</div>
+    </div>
+</body>
+</html>

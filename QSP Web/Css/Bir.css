@@ -1,0 +1,16 @@
+.head{
+    color:chocolate;
+    text-align: center;
+    text-decoration: solid underline 5px black;
+    text-shadow: 5px 5px 10px black;
+    text-transform: uppercase;
+}
+.para{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}

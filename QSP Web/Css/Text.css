@@ -1,0 +1,30 @@
+.head{
+    color: rgb(222, 8, 8);
+    text-align: center;
+    text-decoration: underline black 5px solid;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px black;
+}
+.para1{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 20px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+}
+.para{
+    text-align: justify;
+    /* text-indent: 50px; */
+    line-height: 20px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+}
+.link{
+    text-align: justify;
+}

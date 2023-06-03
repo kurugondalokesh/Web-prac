@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        h1{
+            text-align: center;
+            border: solid 10px black;
+        }
+        .img{
+            border: solid 10px black;
+            border-radius: 10px ;
+            width: 250px;
+            height: 250px ;
+            color: black;
+        }
+        .gal{
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            row-gap: 30px;      
+            }
+
+        .row1,.row2{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .img1, .img2, .img3, .img4,.img5,.img6,.img7,.img8{
+            transition: ease 1s;
+        }
+        .img1:hover{
+            transform:scale(1.2) ;
+        }
+        .img2:hover{
+            transform: rotate(45deg);
+        }
+        .img3:hover{
+            transform: scaley(1.3);
+        }
+        .img4:hover{
+            transform: rotatex(75deg);
+        }
+        .img5:hover{
+            transform: scaleX(1.5);
+        }
+        .img6:hover{
+            transform: rotateX(360deg);
+        }
+        .img7:hover{
+            transform: scaleY(1.2);
+        }
+        .img8:hover{
+            transform: rotateZ(180deg);
+        }
+    </style>
+</head>
+<body>
+    <h1> One piece</h1>
+    <div class="gal">
+        <div class="row1">
+           
+                <a href=""> <img class= "img img1" src="../Assign on flex/ace.jpeg" alt=""></a>
+                <a href= ""> <img class= "img img2" src="../Assign on flex/beard.jpeg" alt=""></a>
+                <a href=""><img class= "img img3" src="../Assign on flex/cook.webp" alt=""></a>
+                <a href="">  <img class= "img img4" src="../Assign on flex/Luffy.jpg" alt=""></a>
+        </div>
+        <div class="row2">
+            <a href= ""><img  class= "img img5"src="../Assign on flex/ray.jpeg" alt=""></a>
+           <a href=""> <img  class= "img img6"src="../Assign on flex/roger.jpeg" alt=""></a>
+            <a href= ""><img class= "img img7"src="../Assign on flex/shanks.jpeg" alt=""></a>
+            <a href=""> <img class= "img img8"src="../Assign on flex/zoro.jpeg" alt=""></a>
+        </div>
+</body>
+</html>

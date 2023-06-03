@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <style>
+        *{
+            /* background-image: url(../Css/luf.jpeg);
+            /* background-repeat:no-repeat; */
+            /* background-position: center;
+            background-size: cover; */ 
+            background-color: black;
+        }
+        h1{
+            margin-left: 550px;
+            color: tomato;
+            /* border-style: dashed; */
+            font-family: tili warp,consolas;
+            background: none;
+        }
+        .cont{
+            margin: auto;
+        }
+        .r1{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            row-gap: 100px;
+            padding-bottom: 50px;
+            padding-top: 20px;
+        }
+        .r2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .im{
+            width: 220px;
+            height: 220px;
+            border: solid 2px 00ff73;
+            border-radius: 10px;
+            box-shadow: 5px 5px 2px #00ff73;
+        }
+        .ig1:hover{
+            animation: myAnim1 2s linear alternate 1s;
+        }
+        .ig2:hover{
+            animation: myAnim2 2s linear alternate 1s;
+        }
+        .ig3:hover{
+            animation: myAnim3 2s linear alternate 1s;
+        }
+        .ig4:hover{
+            animation: myAnim4 2s linear alternate 1s;
+        }
+        .ig5:hover{
+            animation: myAnim5 2s linear alternate 1s;
+        }
+        .ig6:hover{
+            animation: myAnim6 2s linear alternate 1s;
+        }
+        .ig7:hover{
+            animation: myAnim2 2s linear alternate 1s;
+        }
+        .ig8:hover{
+            animation: myAnim8 2s linear alternate 1s;
+        }
+        @keyframes myAnim8 {
+            50%{transform: scale(2);}
+        }
+        @keyframes myAnim6 {
+            50%{transform: skewY(150deg);}
+        }
+        @keyframes myAnim5 {
+            50%{transform:translateY(100px);}
+            100%{transform: translateY(-100px);}
+        }
+        @keyframes myAnim4 {
+            50%{
+                transform: translate(100px);
+            }
+            100%{
+                transform: translate(-100px);
+            }
+        }
+        @keyframes myAnim3 {
+            50%{transform: skew(180deg);
+            box-shadow: 5px 5px 5px red;}
+            
+        }
+        @keyframes myAnim2 {
+            from{}
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes myAnim1 {
+            50%{transform: scale(1.5);}
+        }
+    </style>
+</head>
+<body>
+    <h1>One Piece</h1>
+    <div class="cont">
+        <div class="r1">
+            <img src="../Assign on flex/Luffy.jpg" alt="" class="im ig1">
+            <img src="../Assign on flex/ace.jpeg" alt="" class="im ig2">
+            <img src="../Assign on flex/beard.jpeg" alt="" class="im ig3">
+            <img src="../Assign on flex/shanks.jpeg" alt="" class="im ig4">
+        </div>
+        <div class="r2">
+            <img src="../Assign on flex/cook.webp" alt="" class="im ig5">
+            <img src="../Assign on flex/ray.jpeg" alt="" class="im ig6">
+            <img src="../Assign on flex/roger.jpeg" alt="" class="im ig7">
+            <img src="../Html/balayya.jpeg" alt="" class="im ig8">
+        </div>
+    </div>
+</body>
+</html>
